@@ -631,7 +631,7 @@ If nil then source blocks are initially hidden on slide change."
   (set-buffer-modified-p nil)
   (run-hooks 'epresent-start-presentation-hook))
 
-(define-key org-mode-map [f5]  'epresent-run)
+;; (define-key org-mode-map [f5]  'epresent-run)
 (define-key org-mode-map [f12] 'epresent-run)
 
 (provide 'epresent)
